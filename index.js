@@ -27,7 +27,7 @@ function clickHandler() {
     billAmount = parseInt(billAmountHTML.value);
     cash = parseInt(cashHTML.value);
 
-    if(billAmount === undefined || cash === undefined) {
+    if(isNaN(billAmount) || isNaN(cash)) {
         console.log("Enter bill amount and cash given in edit boxes");
     }
     else if(billAmount > cash) {
