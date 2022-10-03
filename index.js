@@ -28,10 +28,10 @@ function clickHandler() {
     cash = parseInt(cashHTML.value);
 
     if(isNaN(billAmount) || isNaN(cash)) {
-        console.log("Enter bill amount and cash given in edit boxes");
+        alert("Enter bill amount and cash given in edit boxes.");
     }
-    else if(billAmount > cash) {
-        console.log("Enter valid cash or bill amount. Bill Amount mush be lesser than or equal to cash given.");
+    else if(billAmount > cash || billAmount < 0 || cash < 0) {
+        alert("Enter valid cash or bill amount. Bill Amount must be lesser than or equal to cash given and must not be negative values.");
     }
     else {
         getChange();
