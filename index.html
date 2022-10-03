@@ -12,44 +12,46 @@
 </head>
 
 <body>
-    <h1>
-        Cash Register
-    </h1>
+    <div class="container">
+        <h1>
+            Cash Register
+        </h1>
 
-    <div>
-        Bill Amount
+        <div class="input-title">
+            Bill Amount
+        </div>
+        <input class="input-number" id="bill-amount" type="number">
+
+        <div class="input-title">
+            Cash Given
+        </div>
+        <input class="input-number" id="cash-given" type="number">
+
+        <button id="btn-check">Check</button>
+
+        <table>
+            <tr>
+                <th>Number of Notes</th>
+                <td class="notes">--</td>
+                <td class="notes">--</td>
+                <td class="notes">--</td>
+                <td class="notes">--</td>
+                <td class="notes">--</td>
+                <td class="notes">--</td>
+                <td class="notes">--</td>
+            </tr>
+            <tr>
+                <th>Amount</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
     </div>
-    <input class="input-number" id="bill-amount" type="number">
-
-    <div>
-        Cash Given
-    </div>
-    <input class="input-number" id="cash-given" type="number">
-
-    <button id="btn-check">Check</button>
-
-    <table>
-        <tr>
-            <th>Number of Notes</th>
-            <td class="notes">--</td>
-            <td class="notes">--</td>
-            <td class="notes">--</td>
-            <td class="notes">--</td>
-            <td class="notes">--</td>
-            <td class="notes">--</td>
-            <td class="notes">--</td>
-        </tr>
-        <tr>
-            <th>Amount</th>
-            <td>2000</td>
-            <td>500</td>
-            <td>100</td>
-            <td>20</td>
-            <td>10</td>
-            <td>5</td>
-            <td>1</td>
-        </tr>
-    </table>
 </body>
 
 </html>

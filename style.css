@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-title {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.input-number {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid black;
+}
+
+#btn-check {
+  cursor: pointer;
+  margin: 1rem 0;
+  display: block;
+  padding: 0.7rem 2rem;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+}
+
+table {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+th,
+td {
+  padding: 1rem;
+}
